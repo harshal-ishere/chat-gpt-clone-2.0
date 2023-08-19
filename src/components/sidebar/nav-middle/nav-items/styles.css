@@ -1,0 +1,17 @@
+.nav-items{
+    display: block; 
+    color: inherit;  
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+.nav-items:hover{
+    background-color: rgba(52,53,65);
+}
+.elements-anchor{
+    display: inline;
+    max-height: 1rem;
+    padding-left:10px;
+    position: relative;
+    bottom: 3px;
+}

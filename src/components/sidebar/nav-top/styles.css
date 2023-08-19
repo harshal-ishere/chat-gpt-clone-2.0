@@ -1,0 +1,46 @@
+a{
+    color: white;
+    text-decoration: none;
+}
+.nav-top a,.nav-top div{
+display: inline;
+}
+.nav-top a{
+    border: 1px solid hsla(0,0%,100%,.2);
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding:12px 5.6rem 11px 10px;
+    font-size: 15px;
+}
+.nav-top{
+    margin-top: 1.1rem;
+    margin-bottom: 1rem;
+   position: fixed;
+}
+.headers-initial{
+    font-size: 18px;
+    margin-left: 4px;
+}
+.nav-top a:hover{
+    background-color: rgba(52,53,65);
+}
+.header-main{
+    margin-left: .7rem;
+}
+.toggleButton{
+    display: inline;
+    padding: 10px 13px 11px 13px;
+    color: white;
+    border: 1px solid hsla(0,0%,100%,.2);
+    border-radius: .275rem;
+    background-color: transparent;
+    margin-left: 8px;
+}
+.toggleButton:hover{
+    background-color: rgba(52,53,65);
+    opacity: 1;
+}
+.toggleButtonSVG{
+    position: relative;
+    top: 2.2px;
+}

@@ -1,0 +1,67 @@
+/* .version-switch div,.version-switch div p{
+    display: inline;
+} */
+.version-switch-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.version-switch {
+    background-color: rgba(32, 33, 35);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: .25rem;
+    border-radius: .75rem;
+}
+
+.version-switch {
+    padding: .25rem;
+}
+
+.ver-swi-1 {
+    background-color: rgba(64,65,79);;
+    /* padding: 1.5rem; */
+    border-radius: .5rem;
+}
+
+.ver-swi-1,
+.ver-swi-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: .625rem;
+    padding-bottom: .625rem;
+    gap: .5rem;
+    width: 148px;
+}
+
+.ver-swi-1 p,
+.ver-swi-2 p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+
+.ver-swi-2 p,
+.stars {
+    color: grey;
+}
+
+.lightning {
+    color: #03C988;
+}
+
+
+/* .ver-swi-2 .stars:hover {
+    color: blueviolet;
+}
+.ver-swi-2 p:hover{
+    color: white;
+} */

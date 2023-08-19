@@ -1,0 +1,12 @@
+.nav-middle{
+    margin-top: 3.5rem;
+    /* padding-bottom: 44.3vh; */
+}
+.semiHeading{
+    color: rgba(142,142,160);
+    font-size:0.75rem;
+    padding:.75rem .75rem .5rem;
+    font-weight: 500;
+    line-height: 1rem;
+    margin-bottom: 0;
+}

@@ -1,0 +1,42 @@
+#home{
+    background-color: rgba(52,53,65);
+    color: white;
+}
+.someToggle{
+    width: 100vmax;
+        height: 100vh;
+}
+@media(max-width:780px){
+    #home{
+        width: 100vmin;
+        height: 100vh;
+    }
+    #tgbutton2{
+        display: none;
+    }
+}
+#home h1{
+    display: inline;
+}
+.toggleButton2{
+    display: inline;
+    padding: 10px 13px 11px 13px;
+    color: white;
+    border-radius: .275rem;
+    background-color: transparent;
+    margin-left: 8px;
+    position: relative!important;
+    top: 1.1rem!important;
+    z-index: 100;
+}
+.toggleButtonSVG2{
+    position: relative;
+    top: 2.2px;
+}
+.toggleButton2:hover{
+    background-color: rgba(64,65,79);
+    opacity: 1;
+}
+.invincible{
+    display: none;
+}

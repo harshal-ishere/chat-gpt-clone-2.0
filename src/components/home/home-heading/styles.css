@@ -1,0 +1,15 @@
+.home-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home-head p{
+    color: rgba(86,88,105);
+    margin-bottom: 4rem;
+    margin-top:0 ;
+    font-size: 2.1rem;
+    /* line-height: 2.3rem; */
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    font-family: 'Satoshi', sans-serif;
+}
