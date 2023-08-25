@@ -172,7 +172,7 @@
     }
     .home-content{
         display: grid;
-        grid-template-columns:450px;
+        grid-template-columns:320px;
         grid-template-rows: 1fr 1fr 1fr 1fr;
     }
     .horse{
