@@ -5,7 +5,9 @@ let NavTop=()=>{
     const count = useSelector(state => state.counter);
   const dispatch = useDispatch();
   if(count===true){
-    console.log("yeaa");
+    console.log("true");
+  }if(count===false){
+console.log("false");
   }
     return(
         <div className="nav-top">

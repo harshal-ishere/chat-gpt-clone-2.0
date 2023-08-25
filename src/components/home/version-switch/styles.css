@@ -16,6 +16,7 @@
     flex-direction: row;
     gap: .25rem;
     border-radius: .75rem;
+    
 }
 
 .version-switch {

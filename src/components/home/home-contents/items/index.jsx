@@ -1,8 +1,9 @@
 import "./styles.css";
-let HomeItems = () => {
+let HomeItems = (props) => {
     return (
         <div className="home-items">
-            <p>Come up with Concepts</p>
+            <p className="home-item-1">{props.data.primary}</p>
+            <p className="home-item-2">{props.data.secondary}</p>
         </div>
     )
 }

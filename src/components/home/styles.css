@@ -40,3 +40,45 @@
 .invincible{
     display: none;
 }
+
+.home-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.home-bar p{
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+.new-chat{
+    color:#d4d4d4;
+}
+.plus *{
+    margin-right: .5rem;
+}
+.home-ham-but{
+    display: inline;
+    padding: .5rem;
+}
+.home-ham-but *:hover{
+    color:white;
+}
+#home hr{
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 1px solid hsla(0,0%,100%,.2);
+}
+@media(min-width:780px){
+    #home-main-bar{
+display: none!important;
+    }
+}
+
+/* .helloo{
+    z-index: 100;
+    background-color: aquamarine;
+    display: inline;
+    height: 100vh;
+} */
